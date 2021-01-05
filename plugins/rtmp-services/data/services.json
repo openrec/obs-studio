@@ -1756,6 +1756,20 @@
                 "max video bitrate": 5000,
                 "max audio bitrate": 160
             }
+        },
+        {
+            "name": "OPENREC.tv",
+            "servers": [
+                {
+                    "name": "Default",
+                    "url": "rtmp://a.station.openrec.tv:1935/live1"
+                }
+            ],
+            "recommended": {
+                "keyint": 2,
+                "max video bitrate": 5000,
+                "max audio bitrate": 160
+            }
         }
     ]
 }
